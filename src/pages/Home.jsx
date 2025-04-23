@@ -3,7 +3,7 @@ import Form from "../components/Form";
 import TrrendingCoins from "../components/TrrendingCoins";
 import { useDispatch, useSelector } from "react-redux";
 import { coinReset } from "../features/coins/coinSlice";
-import CoinList from "../components/coinList";
+import CoinList from "../components/CoinList";
 
 const Home = () => {
   const { themeMode: theme } = useSelector((state) => state.theme);

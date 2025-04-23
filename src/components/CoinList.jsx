@@ -58,7 +58,7 @@ const CoinList = () => {
               </tr>
             </thead>
             <tbody>
-              {tickerCoins.map((crypto, index) => (
+              {tickerCoins?.map((crypto, index) => (
                 <tr
                   key={crypto?.id}
                   className={`border-t ${
